@@ -141,3 +141,13 @@ table {
     font-size: larger;
     font-weight: 600;
 }
+
+.topNav {
+    display: flex;
+    flex-direction: row;
+
+}
+
+nav {
+    display: flex;
+}
