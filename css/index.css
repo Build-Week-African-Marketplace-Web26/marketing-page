@@ -188,13 +188,19 @@ h2 {
 }
 .main-content {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 section {
   margin-top: 2.5%;
   width: 45%;
 }
+.bottom-content {
+  display: flex;
+  width: 45%;
+  justify-content: flex-end;
+}
 .bottom-content img {
+  height: 90vh;
   width: 100%;
-  justify-content: flex-start;
 }
