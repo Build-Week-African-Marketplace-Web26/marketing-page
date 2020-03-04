@@ -446,9 +446,24 @@ h3 {
   width: 45%;
   justify-content: flex-end;
 }
+@media (max-width: 500px) {
+  .bottom-content {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
 .bottom-content img {
   height: 90vh;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .bottom-content img {
+    height: 40vh;
+    display: block;
+  }
 }
 .second-section {
   display: flex;
