@@ -407,9 +407,32 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+@media (max-width: 500px) {
+  .main-content {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+}
 section {
   margin-top: 2.5%;
   width: 45%;
+}
+@media (max-width: 500px) {
+  section {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  section {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    text-align: center;
+  }
 }
 .top-content h2 {
   color: #DC3900;
@@ -435,4 +458,36 @@ h3 {
 }
 .second-section .top-content {
   width: 45%;
+}
+@media (max-width: 500px) {
+  .second-section .top-content {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  .second-section .top-content {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .second-section {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  .second-section {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    text-align: center;
+  }
 }

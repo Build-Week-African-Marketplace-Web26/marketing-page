@@ -75,11 +75,31 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    @media(max-width: 500px) {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
 }
 
 section {
     margin-top: 2.5%;
     width: 45%;
+
+    @media(max-width: 500px) {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        text-align: center;
+    }
+
+    @media(max-width: 800px) {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        text-align: center;
+    }
 }
 
 .top-content h2 {
@@ -100,6 +120,8 @@ h3 {
 .bottom-content img {
     height: 90vh;
     width: 100%;
+
+
 }
 
 .second-section {
@@ -110,7 +132,39 @@ h3 {
 
     .top-content {
         width: 45%;
+
+        @media(max-width: 500px) {
+            flex-direction: column;
+            flex-wrap: nowrap;
+            width: 100%;
+            text-align: center;
+        }
+
+        @media(max-width: 800px) {
+            flex-direction: column;
+            flex-wrap: nowrap;
+            width: 100%;
+            text-align: center;
+        }
+
+
     }
+
+    @media(max-width: 500px) {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        text-align: center;
+    }
+
+    @media(max-width: 800px) {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        text-align: center;
+    }
+
+
 }
 
 //Tablet responsive design
