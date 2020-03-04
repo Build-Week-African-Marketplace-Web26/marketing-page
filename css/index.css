@@ -152,9 +152,19 @@ h2 span {
 .logo {
   text-decoration: none;
 }
+@media (max-width: 500px) {
+  .logo {
+    padding-bottom: 20px;
+  }
+}
 nav a {
   text-decoration: none;
   margin-left: 62px;
+}
+@media (max-width: 500px) {
+  nav a {
+    margin-left: 30px;
+  }
 }
 @font-face {
   font-family: 'Open Sans';
@@ -336,6 +346,13 @@ header {
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
 }
 .imagebox {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/african-marketplace-home.jpg) no-repeat center center fixed;
