@@ -1,101 +1,96 @@
 .container {
-    width: 95%;
-    margin: 0 auto;
-    font-size: 1.9rem;
+  width: 95%;
+  margin: 0 auto;
+  font-size: 1.9rem;
 }
 
 header {
-
-    border-bottom: 1px dotted black;
-    margin: 30px 0;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-between;
+  border-bottom: 1px dotted black;
+  margin: 30px 0;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .imagebox {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/african-marketplace-home.jpg) no-repeat center center fixed;
-    background-size: cover;
-    color: white;
-    min-height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.5);
-    transition: box-shadow .3s ease-out;
-    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.5);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/african-marketplace-home.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease-out;
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.5);
 }
 
 .imagebox:hover {
-    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.2);
 }
 
-
 .btn-parent {
-    .centered();
-    flex-direction: column;
-
+  .centered();
+  flex-direction: column;
 }
 
 .sign-up-btn {
-    display: block;
-    background-color: @main-color;
-    margin: 0 10px 20px;
-    cursor: pointer;
-    width: 200px;
-    height: 45px;
-    font-size: 2rem;
-    border-radius: 10px;
-    align-self: center;
-    margin-top: 10%;
-    color: white;
-
-
+  display: block;
+  background-color: @main-color;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  align-self: center;
+  margin-top: 10%;
+  color: white;
 }
 
 .sign-up-btn:hover {
-    color: @main-color;
-    background-color: white;
+  color: @main-color;
+  background-color: white;
 }
 
-
-
 .main-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 section {
-    margin-top: 2.5%;
-    width: 45%;
+  margin-top: 2.5%;
+  width: 45%;
 }
 
 .top-content h2 {
-    color: @main-color;
+  color: @main-color;
+}
+h3 {
+  font-weight: 700;
+  color: #222;
 }
 
 .bottom-content {
-    display: flex;
-    width: 45%;
-    justify-content: flex-end;
-
+  display: flex;
+  width: 45%;
+  justify-content: flex-end;
 }
 
 .bottom-content img {
-    height: 90vh;
-    width: 100%;
-
+  height: 90vh;
+  width: 100%;
 }
 
 .second-section {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
 
-    .top-content {
-        width: 45%;
-    }
-
+  .top-content {
+    width: 45%;
+  }
 }
