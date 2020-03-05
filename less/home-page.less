@@ -81,6 +81,12 @@ header {
         flex-wrap: nowrap;
         width: 100%;
     }
+
+    @media(max-width: 800px) {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
 }
 
 section {
@@ -112,17 +118,27 @@ h3 {
 }
 
 .bottom-content {
+    margin-top: 2.5%;
     display: flex;
     width: 45%;
     justify-content: flex-end;
 
     @media(max-width: 500px) {
-        // width: 100%;
+        width: 80%;
         height: auto;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        // width: 50%;
+    }
+
+    @media(max-width: 800px) {
+        width: 60%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
     }
 }
 
@@ -132,11 +148,20 @@ h3 {
 
     @media(max-width: 500px) {
 
-        height: 40vh;
+        // height: 80vh;
+        // display: block;
+        // margin-left: auto;
+        // margin-right: auto;
+
+    }
+
+    @media(max-width: 800px) {
+
+        height: 80vh;
         display: block;
         // margin-left: auto;
         // margin-right: auto;
-        // width: 50%;
+
     }
 
 }
