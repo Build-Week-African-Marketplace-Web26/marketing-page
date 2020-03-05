@@ -448,11 +448,11 @@ h3 {
 }
 @media (max-width: 500px) {
   .bottom-content {
-    height: auto;
+    height: 60vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 90%;
   }
 }
 .bottom-content img {
@@ -461,7 +461,7 @@ h3 {
 }
 @media (max-width: 500px) {
   .bottom-content img {
-    height: 40vh;
+    height: 60vh;
     display: block;
   }
 }
@@ -476,6 +476,7 @@ h3 {
 }
 @media (max-width: 500px) {
   .second-section .top-content {
+    margin-bottom: 2.5%;
     flex-direction: column;
     flex-wrap: nowrap;
     width: 100%;
