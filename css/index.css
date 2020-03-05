@@ -463,6 +463,15 @@ h3 {
     width: 90%;
   }
 }
+@media (max-width: 800px) {
+  .bottom-content {
+    height: 60vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+}
 .bottom-content img {
   height: 90vh;
   width: 100%;
@@ -471,6 +480,17 @@ h3 {
   .bottom-content img {
     height: 60vh;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 800px) {
+  .bottom-content img {
+    height: 60vh;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .second-section {
