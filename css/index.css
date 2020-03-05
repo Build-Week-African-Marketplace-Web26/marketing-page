@@ -414,6 +414,13 @@ header {
     width: 100%;
   }
 }
+@media (max-width: 800px) {
+  .main-content {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+}
 section {
   margin-top: 2.5%;
   width: 45%;
@@ -442,6 +449,7 @@ h3 {
   color: #222;
 }
 .bottom-content {
+  margin-top: 2.5%;
   display: flex;
   width: 45%;
   justify-content: flex-end;
