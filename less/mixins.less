@@ -1,0 +1,57 @@
+//fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+    font-family: Open Sans;
+}
+
+// Mixins 
+.centered() {
+    display: flex;
+    justify-content: center;
+}
+
+.headerCenter() {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.mainContentCentered() {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.imageBoxCentered() {
+    height: 60vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.imageCentered() {
+    height: 60vh;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sectionTextCenter() {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    text-align: center;
+}
+
+
+//colors
+@main-color: #DC3900;
+@accent-color: #222;
+
+//Variables
+@width: 45%;
+@boxShadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.5);
+@boxShadowHover: inset 0 0 0 100vw rgba(0, 0, 0, 0.2);
